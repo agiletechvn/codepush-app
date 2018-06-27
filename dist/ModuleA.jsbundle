@@ -1,0 +1,4 @@
+__d(function(e,t,f,a){var u=t("24f1c96efc83b9dac78516e37cedd26f"),d=babelHelpers.interopRequireDefault(u),l=t("0932722388ef1d214b790479e929a484"),r=t("e2af8634b6f4d9e6f3152fccee6c9951");babelHelpers.interopRequireDefault(r).default.modules.set("ModuleA",function(){return d.default.createElement(l.Button,{onPress:function(){return alert("ok")},title:"Module A update"})})},"1a2c8324fb270b9bffe46d7b0a74fad3");
+__d(function(a,e,s,t){s.exports=e("065b58768dd481ff9361ba12b0671280").registerAsset({__packager_asset:!0,httpServerLocation:"/assets/images",width:651,height:364,scales:[1],hash:"f342da0736840288992f0256a0256083",name:"laptop_phone_howitworks",type:"png"})},"fa524191741a6df587bb192667884206");
+;require("013e0d8987f2d5ef3a683c126a39d69e");
+;require("1a2c8324fb270b9bffe46d7b0a74fad3");

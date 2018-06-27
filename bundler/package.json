@@ -1,0 +1,9 @@
+{
+  "name": "@agiletechvn/metro-bundler",
+  "version": "1.0.7",
+  "description": "A command line tool of metro bundler",
+  "keywords": ["react-native", "@agiletechvn/metro-bundler", "cli"],
+  "author": "tupt <tu@agiletech.vn>",
+  "license": "MIT",
+  "dependencies": {}
+}

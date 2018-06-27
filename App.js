@@ -12,6 +12,8 @@ import {
 import CodePush from "react-native-code-push";
 
 class App extends Component<{}> {
+  static modules = new Map();
+
   constructor() {
     super();
     this.state = { restartAllowed: true };
@@ -113,6 +115,16 @@ class App extends Component<{}> {
       );
     }
 
+    const components = [];
+    App.modules.forEach((Value, key) =>
+      components.push(
+        <View key={key} style={{ flexDirection: "row", alignItems: "center" }}>
+          <Text>{key}</Text>
+          <Value />
+        </View>
+      )
+    );
+
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Welcome to SuperApp!</Text>
@@ -136,6 +148,8 @@ class App extends Component<{}> {
         <TouchableOpacity onPress={this.getUpdateMetadata.bind(this)}>
           <Text style={styles.syncButton}>Press for Update Metadata</Text>
         </TouchableOpacity>
+
+        {components}
         <Text style={styles.messages}>{this.state.syncMessage || ""}</Text>
       </View>
     );

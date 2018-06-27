@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "CodePushDemoApp/modules/ModuleA/index.js": {
+      "id": "1a2c8324fb270b9bffe46d7b0a74fad3"
+    }
+  }
+}
